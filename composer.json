@@ -1,0 +1,21 @@
+{
+    "name": "erlangparasu/php-email-validator",
+    "description": "php email validator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erlang Parasu",
+            "email": "erlangparasu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/core.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "ext-mbstring": "*"
+    }
+}
